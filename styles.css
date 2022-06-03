@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:#c0c0c2;
+}
+.navbar{
+position:sticky;
+top: 0;
+display: flex;
+justify-content: space-between;
+width: 100%;
+padding: 25px;
+margin: 10px;
+z-index: 10;
+background-color:#c0c0c2;
+
+}
+.logo-container{
+  display: flex;
+  align-items: center;
+
+}
+.logo{
+  padding-right: 5px;
+}
+h1{
+  font-size: 25px;
+}
+ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding-top: 15px;
+  margin-right: 20px;
+}
+.nav-list{
+  padding-right: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+.get-started{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 80px;
+}
+.gs{
+  margin-bottom: 8px;
+  padding: 5px;
+}
+input{
+  width: 25%;
+}
+.gs-button{
+  color: #000;
+  background-color: yellow;
+  font-weight:800;
+  text-align: right;
+}
+.features-section{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+.pm{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 70px;
+}
+
+.fs{
+  display:flex;
+  justify-content:space-around;
+  margin-bottom: 70px;
+}
+.fsw{
+  position: relative;
+  right:15px;
+}
+.qa{
+  display:flex;
+  justify-content:space-around;
+}
+.how-it-works{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.fa-solid{
+  color: #efbf38;
+}
+.main-last{
+  display: flex;
+  justify-content: center;
+}
+.last{
+  height: 300px;
+  width: 30%;
+  border:1px solid;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+h3{
+  background-color:#A0a1a4;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.money{
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.money-button{
+  margin-top: 10px;
+  padding: 10px;
+  width: 35%;
+  background-color:#efbf38;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.money-button:hover{
+  background-color: #F7a400;
+}
+.footer-items{
+  color: black;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+}
+@media only screen and (max-width: 900px) {
+.features-section{
+  margin-left: 250px;
+}
+}
