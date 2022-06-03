@@ -65,6 +65,7 @@ input{
   display: flex;
   flex-direction: column;
   margin-bottom: 100px;
+  justify-content: center;
 }
 .pm{
   display: flex;
@@ -138,7 +139,7 @@ h3{
   align-items: center;
 }
 @media only screen and (max-width: 900px) {
-.features-section{
-  margin-left: 250px;
+.fa-solid{
+  font-size: 40px;
 }
 }
